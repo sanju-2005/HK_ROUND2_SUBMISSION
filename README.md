@@ -25,6 +25,5 @@ Includes a provisional 166-credit baseline and balanced 166-credit redesign scen
 ## Submission Links
 
 - **GitHub repository:** https://github.com/sanju-2005/HK_ROUND2_SUBMISSION
-- **Named release:** https://github.com/sanju-2005/HK_ROUND2_SUBMISSION/releases/tag/round2-submission-v1
-- **Full commit URL (released revision):** https://github.com/sanju-2005/HK_ROUND2_SUBMISSION/commit/4e185bc27aa0582c1c01f478c2130477a5261076
-
+- **Named release:** https://github.com/sanju-2005/HK_ROUND2_SUBMISSION/releases/tag/round2-submission-v2
+- **Full commit URL (released revision):** https://github.com/sanju-2005/HK_ROUND2_SUBMISSION/commit/b319845f58a30bf5b770fd7c9ed58aa0c4a0b2c5
