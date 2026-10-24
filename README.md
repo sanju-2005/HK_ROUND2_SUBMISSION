@@ -22,9 +22,9 @@ Includes a provisional 166-credit baseline and balanced 166-credit redesign scen
 - Task 1: seven client-side rule assertions passed; the normal request → replacement acceptance → coordinator review → HOD approval → faculty notification flow was manually verified in the browser. Test results and scope limits are in `task-1-faculty-leave/tests/`.
 - Task 2: `python task-2-curriculum-audit/evidence/verify_exercises.py` passed 12 scripted assertions (8 CS101 and 4 CS102 checks). The interactive explorer is self-contained; see `task-2-curriculum-audit/analysis/validation.md` for remaining manual checks and limits.
 
-## Submission links
-- **GitHub repository:** https://github.com/sanju-2005/round2-assignment
-- **Named release URL:** https://github.com/sanju-2005/round2-assignment/releases/tag/round2-submission-v1
-- **Full commit URL (released revision):** https://github.com/sanju-2005/round2-assignment/commit/53cd35aa63de86e7d9feb7884221bc3b94799d69
+## Submission Links
 
-The commit URL above identifies the preserved revision attached to the named release. If this package is uploaded as a new commit, update this line with the new commit URL as well, while retaining the release URL.
+- **GitHub repository:** https://github.com/sanju-2005/HK_ROUND2_SUBMISSION
+- **Named release:** https://github.com/sanju-2005/HK_ROUND2_SUBMISSION/releases/tag/round2-submission-v1
+- **Full commit URL (released revision):** https://github.com/sanju-2005/HK_ROUND2_SUBMISSION/commit/4e185bc27aa0582c1c01f478c2130477a5261076
+
