@@ -1,0 +1,52 @@
+semester,course_code,course_name,current_credits,category,source,verification_status
+1,CH102,Environmental Sciences,2,Science/Foundation,Semester screenshot supplied by student,Provisional—portal screenshot
+1,CS101,Computer Programming,4,Computing Core,Semester screenshot supplied by student,Provisional—portal screenshot
+1,EG101,English Language Skills,3,Communication,Semester screenshot supplied by student,Provisional—portal screenshot
+1,HS101,Essence of Indian Traditional Knowledge,0,Humanities/Value,Semester screenshot supplied by student,Provisional—portal screenshot
+1,MA101,Linear Algebra and Ordinary Differential Equations,3,Mathematics,Semester screenshot supplied by student,Provisional—portal screenshot
+1,MT102,Engineering Graphics,3,Engineering Foundation,Semester screenshot supplied by student,Provisional—portal screenshot
+1,PHY101,Physics,5,Science/Foundation,Semester screenshot supplied by student,Provisional—portal screenshot
+2,CH101,Chemistry,4,Science/Foundation,Semester screenshot supplied by student,Provisional—portal screenshot
+2,CS102,Data Structures,4,Computing Core,Semester screenshot supplied by student,Provisional—portal screenshot
+2,DS101,Introduction to AI and DS,3,AI/Data Science,Semester screenshot supplied by student,Provisional—portal screenshot
+2,EC101,Basic Electronics,4,Engineering Foundation,Semester screenshot supplied by student,Provisional—portal screenshot
+2,EG102,Professional Communication,3,Communication,Semester screenshot supplied by student,Provisional—portal screenshot
+2,MA102,Higher Calculus,3,Mathematics,Semester screenshot supplied by student,Provisional—portal screenshot
+2,MT101,Digital Fabrication,3,Engineering Foundation,Semester screenshot supplied by student,Provisional—portal screenshot
+3,CR201,Power Skills-I,1,Professional Skills,Semester screenshot supplied by student,Provisional—portal screenshot
+3,CS201,Object Oriented Programming Concepts,4,Computing Core,Semester screenshot supplied by student,Provisional—portal screenshot
+3,CS206,Database Management Systems,4,Computing Core,Semester screenshot supplied by student,Provisional—portal screenshot
+3,DS201,Artificial Intelligence,3,AI/Data Science,Semester screenshot supplied by student,Provisional—portal screenshot
+3,EC201,Introduction to IoT,3,Engineering/Systems,Semester screenshot supplied by student,Provisional—portal screenshot
+3,HS201,Dynamics of Social Change,3,Humanities/Value,Semester screenshot supplied by student,Provisional—portal screenshot
+3,MA202,Discrete Mathematics,3,Mathematics,Semester screenshot supplied by student,Provisional—portal screenshot
+3,ML201,Mathematical Essentials for Machine Learning,3,Mathematics/AI,Semester screenshot supplied by student,Provisional—portal screenshot
+4,CR202,Power Skills-II,1,Professional Skills,Semester screenshot supplied by student,Provisional—portal screenshot
+4,CS203,Design and Analysis of Algorithms,3,Computing Core,Semester screenshot supplied by student,Provisional—portal screenshot
+4,CS204,Computer Organization and Architecture,3,Computing Core,Semester screenshot supplied by student,Provisional—portal screenshot
+4,CS205,Web-Enabled Technologies,4,Software Engineering,Semester screenshot supplied by student,Provisional—portal screenshot
+4,CS302,Operating Systems,4,Computing Core,Semester screenshot supplied by student,Provisional—portal screenshot
+4,DS202,Industry Coding Practice (Python/R),3,Software Engineering,Semester screenshot supplied by student,Provisional—portal screenshot
+4,DS301,Soft Computing,3,AI/Data Science,Semester screenshot supplied by student,Provisional—portal screenshot
+4,MG201,Engineering Economics and Management,3,Professional Skills,Semester screenshot supplied by student,Provisional—portal screenshot
+5,CR301,Power Skills-III,1,Professional Skills,Semester screenshot supplied by student,Provisional—portal screenshot
+5,CS306,Computer Networks,4,Computing Core,Semester screenshot supplied by student,Provisional—portal screenshot
+5,CS415,Ethical Hacking,3,Security,Semester screenshot supplied by student,Provisional—portal screenshot
+5,DS303,Blockchain Technology,3,Specialized/Elective-like,Semester screenshot supplied by student,Provisional—portal screenshot
+5,DS304,Machine Learning,4,AI/Data Science,Semester screenshot supplied by student,Provisional—portal screenshot
+5,DS305,Data Wrangling and Visualization,3,Data Science,Semester screenshot supplied by student,Provisional—portal screenshot
+5,DS310,Predictive Analytics,3,AI/Data Science,Semester screenshot supplied by student,Provisional—portal screenshot
+5,HS301,Constitution of India,3,Humanities/Value,Semester screenshot supplied by student,Provisional—portal screenshot
+6,CR302,Power Skills-IV,1,Professional Skills,Semester screenshot supplied by student,Provisional—portal screenshot
+6,DS306,Deep Learning,3,AI/Data Science,Semester screenshot supplied by student,Provisional—portal screenshot
+6,DS307,Big Data Systems,3,Data Systems,Semester screenshot supplied by student,Provisional—portal screenshot
+6,DS309,Pattern Recognition,3,AI/Data Science,Semester screenshot supplied by student,Provisional—portal screenshot
+6,DS311,Natural Language Processing,3,AI/Data Science,Semester screenshot supplied by student,Provisional—portal screenshot
+6,EC308,Embedded Systems,3,Engineering/Systems,Semester screenshot supplied by student,Provisional—portal screenshot
+6,SP301,Special Project,3,Project/Capstone,Semester screenshot supplied by student,Provisional—portal screenshot
+7,CS305,Computer Vision,3,AI/Data Science,Semester screenshot supplied by student,Provisional—portal screenshot
+7,CS307,Cloud Computing,4,Cloud/Systems,Semester screenshot supplied by student,Provisional—portal screenshot
+7,DS408,Generative AI,3,AI/Data Science,Semester screenshot supplied by student,Provisional—portal screenshot
+7,OE418,Foundation for Virtual and Augmented Reality Systems,3,Specialized/Elective-like,Semester screenshot supplied by student,Provisional—portal screenshot
+7,OE801,English Language for Competitive Exams,3,Communication,Semester screenshot supplied by student,Provisional—portal screenshot
+8,INTERN,Internship,15,Experiential Learning,Student-reported internship requirement; screenshot not supplied,Provisional—student-reported; official rule not verified

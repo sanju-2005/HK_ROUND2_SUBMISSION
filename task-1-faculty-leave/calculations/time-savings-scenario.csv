@@ -1,0 +1,11 @@
+measure,baseline_minutes_per_request,proposed_minutes_per_request,net_saving_minutes,basis
+Faculty application entry/admin,6,4,2,Illustrative assumption only; replace with measured values
+Finding and contacting cover,12,5,7,Illustrative assumption only; proposed shortlist plus colleague confirmation; replace with measured values
+Clerk/coordination and review,8,5,3,Illustrative assumption only; proposed coordinator/HOD review remains necessary
+Additional system support/administration,0,2,-2,Illustrative assumption for ongoing support per request; not measured
+Total active staff-minutes per request,26,16,10,Baseline 6+12+8=26; proposed 4+5+5+2=16; scenario only
+Net time saved per request,,,10,26 baseline − 16 proposed including review/support = 10 minutes; scenario only
+Net time saved percentage,,,38.5%,10 ÷ 26 × 100 = 38.5%; scenario only; not observed college data
+Monthly scale scenario — 5 requests/month,,,50,Illustrative volume only: 5 × 10-minute scenario saving; actual request volume was not collected
+Monthly scale scenario — 10 requests/month,,,100,Illustrative volume only: 10 × 10-minute scenario saving; actual request volume was not collected
+Monthly scale scenario — 20 requests/month,,,200,Illustrative volume only: 20 × 10-minute scenario saving; actual request volume was not collected

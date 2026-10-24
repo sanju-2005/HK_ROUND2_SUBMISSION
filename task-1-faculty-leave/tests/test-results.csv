@@ -1,0 +1,17 @@
+test_id,test_name,result,method,scope_or_limit
+R1,Normal date/period validation,PASS,Portal Review checks / client-side assertion run rule assertions,"Rule-level only; client-side validation, no server-side authorization"
+R2,Missing leave date,PASS,Portal Review checks / client-side assertion run rule assertions and missing-date UI interaction,"Date is a demo completeness field, not a confirmed official college field"
+R3,Duplicate request detection,PASS,Portal Review checks / client-side assertion run rule assertion and duplicate submission interaction,Checks the single current in-memory request only; no request history or database
+R4,Unauthorized request identity/role gate,PASS,Portal Review checks / client-side assertion run role/identity rule assertions,Client-side demonstration only; no server-side authorization
+R5,No-cover manual fallback condition,PASS,Portal Review checks / client-side assertion run no-cover fallback assertion,Rule-level fallback condition tested; no real timetable outage tested
+R6,Non-HOD final decision gate,PASS,Portal Review checks / client-side assertion run non-HOD decision rule assertion,Client-side demonstration only
+R7,Weekend date rejected for weekday-only demo timetable,PASS,Portal Review checks / client-side assertion run weekday rule assertion,"Demo timetable restriction, not a college leave policy"
+R8,Full end-to-end request → replacement acceptance → coordinator → HOD decision,PASS,Student manual browser walkthrough with screenshots on 24 Oct 2026,Verified: faculty request → selected replacement recorded → message sent/accepted → coordinator forwarded → HOD approved → requester saw LEAVE APPROVED and HOD note; session-only.
+R9,HOD rejection with reason and requester visibility,PASS,Prior browser smoke-test record noted in report; final student walkthrough focused on approval path,"Rejection with reason is implemented and previously smoke-tested in the project record; if time permits, recheck after final visual polish. Session-only."
+R10,Explicit leave-date calendar button,PASS,Native date field checked in user browser; user confirmed calendar opens,Picker appearance depends on target browser; user confirmed Choose date action opens calendar
+R11,JavaScript syntax after message-sequence guard,PASS,Node --check on inline JavaScript after latest UI changes,Static syntax check only
+R12,HTML parsing after message-sequence guard,PASS,Python HTMLParser on updated portal,Parsing only; not a full accessibility audit
+R13,Send-message then accept/decline interaction,PASS,"Playwright Chromium interaction: response disabled before message, enabled after sending; acceptance and decline paths exercised",Response is simulated and session-only; no live messaging
+R14,"Replacement dropdown, summary, and message recipient synchronization",PASS,Current proposed replacement and conversation recipient checked; student verified Ananya Rao in browser,Uses sample timetable data; no live timetable validation
+R15,Zero-balance warning remains visible,PASS,Playwright Chromium tested account with zero CL balance,Warning displays with replacement results; balances are synthetic
+R16,Duplicate form submission warning,PASS,Playwright Chromium submitted same date/period twice and observed duplicate warning,Only one in-memory request is retained; multi-request history requires persistent storage

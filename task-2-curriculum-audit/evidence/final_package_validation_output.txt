@@ -1,0 +1,9 @@
+Final-package validation run (24 October 2026)
+Command: python evidence/verify_exercises.py
+Environment: Python 3.13 in the current packaging environment.
+Output:
+CS101 score_band: 8/8 checks passed
+CS102 unique_preserving_order: 4/4 checks passed
+All 12 code checks passed.
+
+Scope: the 12 assertions cover two small example functions only; this is not full validation of the curriculum proposal or interactive app.
