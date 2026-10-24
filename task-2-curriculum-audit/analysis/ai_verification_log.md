@@ -58,4 +58,4 @@ The five prompt/output examples were prepared in this ChatGPT conversation using
 
 ## Final interpretation
 
-Two exercises have a student-pasted local test result (CS101 and CS102). For DS304, DS306 and DS311, the log records AI-assisted technical-source cross-checks, not independent student source reviews. No live college data, CNN training, or production retrieval evaluation is claimed.
+Two exercises have a student-run local test result (CS101 and CS102). For DS304, DS306 and DS311, the log records AI-assisted technical-source cross-checks, not independent student source reviews. No live college data, CNN training, or production retrieval evaluation is claimed.
