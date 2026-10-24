@@ -5,6 +5,6 @@ exercises.py
 CS101 score_band: 8/8 checks passed
 CS102 unique_preserving_order: 4/4 checks passed
 All 12 code checks passed.
-PS C:\Users\acer\OneDrive\Desktop\round 2\round2-assignment>
+PS <redacted-local-path>>
 
 This text is a transcription of console output pasted by the student in the ChatGPT conversation, not a screenshot of the terminal.

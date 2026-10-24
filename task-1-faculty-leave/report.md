@@ -13,7 +13,7 @@ The proposed solution is a **Faculty Leave & Smart Class-Coverage Tracker**. It 
 - **Reported verbally by a faculty member on 24 October 2026:** CL uses a Google Form, followed by printing, signing and submitting a hard copy to the clerk. For SL, the reported route is a form or email to the HOD, followed by completing the form and submitting it to the clerk; the exact sequence needs clarification. NEL and EL exist as leave categories, but their application steps were not provided. Faculty arrange cover for each affected class, commonly by asking a suitable colleague or subject faculty member.
 - **Reported verbally:** leave balance has been checked using a payslip or an HOF portal; the student has chosen not to rely on HOF details because its operation is not understood. This report therefore does not analyse or propose integration with that portal.
 - **Supplied timetable evidence:** image of one section's weekly timetable with days and S1–S9 columns. S5 appears to be the lunch period; exact clock times are not provided.
-- **Supplied subject-to-faculty mapping:** OS—Pavan; PS-2—Prasanna; COA—Madhu; WET—Kiran; SC—Ravi; ICP—Madhavi. This mapping is student-supplied and not independently validated.
+- **Supplied subject-to-faculty mapping:** OS—Faculty A; PS-2—Faculty B; COA—Faculty C; WET—Faculty D; SC—Faculty E; ICP—Faculty F. This mapping is student-supplied and not independently validated.
 - **Assumptions for prototype only:** additional section timetables (Sections B–J), staff assignments beyond the supplied mapping, availability, demo leave balances, request records and example cases are synthetic. No real faculty leave balance or confidential data is included.
 - **Not confirmed:** the exact SL sequence; NEL/EL application procedures; who checks/records leave balance; approval authority and order; how cover acceptance is confirmed; exception handling; common-problem frequency; and actual time spent. No assumption is made about HOF portal behavior or LoP policy.
 
@@ -58,7 +58,7 @@ The tracker is software, not a fourth human role. It validates fields, flags dup
 
 ## 7. Timetable and candidate-selection logic
 
-The supplied section timetable is used as Section A for demonstration only. The image's S1–S4 and S6–S9 are treated as teaching periods; S5 is treated as lunch. Exact start/end times are not known. Supplied subject mapping: OS—Pavan; PS-2—Prasanna; COA—Madhu; WET—Kiran; SC—Ravi; ICP—Madhavi. All additional staff assignments and Sections B–J are synthetic weekly schedules; they must never be represented as actual college timetables.
+The supplied section timetable is used as Section A for demonstration only. The image's S1–S4 and S6–S9 are treated as teaching periods; S5 is treated as lunch. Exact start/end times are not known. Supplied subject mapping: OS—Faculty A; PS-2—Faculty B; COA—Faculty C; WET—Faculty D; SC—Faculty E; ICP—Faculty F. All additional staff assignments and Sections B–J are synthetic weekly schedules; they must never be represented as actual college timetables.
 
 Candidate logic: for the selected day and period, collect assignments across the demo schedules; exclude the requester and anyone teaching another modeled class in that period. The remaining staff are shown as *potentially free in synthetic data only*. The candidate must accept, and an authorized person must check subject suitability, workload and local rules. Since real faculty timetables were not obtained, the demo cannot establish actual availability. Missing or synthetic timetable data means availability is unverified, not guaranteed free.
 
@@ -109,23 +109,16 @@ The evidence log template separates source, date, evidence type, claim supported
 
 AI assistance was used to structure the workflow, draft the report, propose synthetic test cases, and help build and revise the demonstration prototype.
 
-**Student contribution (review and correct before submission):** selected the faculty leave process as the case study; obtained and relayed a verbal description of the CL/SL process and the CL/SL/NEL/EL categories; supplied the Section A timetable and subject-to-faculty mapping used as initial demo input; decided not to rely on undocumented HOF behavior; specified interface requirements and reviewed the proposed dashboard changes. The student should personally run the final demonstration, understand the code and limitations, and describe only work actually performed.
+**Student contribution:** selected the faculty leave process as the case study; obtained and relayed a verbal description of the CL/SL process and the CL/SL/NEL/EL categories; supplied the Section A timetable and subject-to-faculty mapping used as initial demo input (faculty names are anonymised as Faculty A–F in this repository); decided not to rely on undocumented HOF behavior; specified interface requirements, reviewed the proposed dashboard changes, and personally ran the end-to-end browser walkthrough on 24 October 2026.
 
-Synthetic schedules, leave balances, demo caps, test cases and time-saving inputs were created for demonstration and were not copied from actual staff records. The student should disclose AI assistance according to the assignment rules.
+Synthetic schedules, leave balances, demo caps, test cases and time-saving inputs were created for demonstration and were not copied from actual staff records. AI assistance is disclosed above.
 
-## 13. Submission checklist
+## 13. Evidence and limitation summary
 
-- [x] Record the verbal source and collection date without naming the individual.
-- [x] Record the faculty-reported CL/SL process and the four leave categories, with unknown details clearly labelled.
-- [x] Leave the exact SL sequence, NEL/EL application steps, approval path and cover-confirmation rule explicitly marked unverified; do not invent them.
-- [x] Leave-balance, work-completion and LoP rules are not assumed; HOF portal behavior is excluded.
-- [x] Label all invented schedules synthetic and state that real faculty availability has not been validated.
-- [x] Run the five required scenario-rule assertions plus non-HOD and weekend-date checks; all seven Node-level assertions passed and are recorded in `tests/test-results.csv` (rule-level only, not full browser acceptance tests).
-- [x] Manually verify the full successful request → replacement acceptance → coordinator review → HOD approval → faculty notification path after the latest replacement/message updates (24 Oct 2026). The rejection branch is included in the test record; a final quick rejection recheck is recommended if time permits.
-- [x] No external URLs were used for the process facts, so no unsupported source URLs were invented.
-- [x] Add a transparent time-saving scenario calculation in `calculations/time-savings-scenario.csv`; all inputs are explicitly marked assumptions, not observed data.
-- [x] Include limitations, AI-use disclosure, personal-contribution guidance and a dated evidence log; student should review and ensure personal-contribution wording is accurate.
-- [ ] Push to the required GitHub structure and add the release/commit URL only after the repository exists.
+- Source: one verbal report (24 October 2026), recorded without naming the individual. Formal permission and any request-volume or timing data were not obtained.
+- Exact SL sequence, NEL/EL steps, approval order, leave-balance and cover-confirmation rules, and LoP policy are unknown and are not assumed. HOF portal behaviour is excluded.
+- All other timetables, balances, caps and time-saving inputs are synthetic or assumed and are labelled as such.
+- Test results are in `tests/`; section 8 states their scope limits.
 
 
 ## 14. Final prototype implementation and verification
@@ -134,6 +127,3 @@ The HTML demo provides Faculty, Department Coordinator and HOD views; a calendar
 
 The prototype stores one request in page memory only. Reloading the browser clears it. Demo accounts are not secure authentication, role checks are not server-enforced, messages are not real delivery, and no database or official leave approval exists. Calendar display is browser-dependent. All category caps/balances and Sections B–J are synthetic. The prototype must not be used to determine actual leave eligibility or actual faculty availability.
 
-## Final submission status
-
-Content deliverables are packaged separately from Task 2 and include the process report, dated evidence log, five required synthetic tests, test results, illustrative net-time-saving calculation, AI-use/contribution disclosure, limitations, current HTML prototype, and screenshots showing the simulated replacement acceptance and HOD approval. Before submitting, upload both folders to one GitHub repository and fill in the actual repository, release and commit URLs in the root README.

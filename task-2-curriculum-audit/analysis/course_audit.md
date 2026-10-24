@@ -65,7 +65,7 @@ The table provides twelve actionable decisions, including keep decisions as well
 
 ## 8. Stakeholder feedback
 
-No faculty or graduate feedback has been collected for this draft as of 23 October 2026. Because the deadline is close, this report records the gap rather than implying consultation happened. If a willing faculty member or graduate is reachable before submission, ask for brief voluntary feedback on the practicality of one proposed lab and whether the credit reallocation needs further policy review. Do not record names or private messages without permission.
+No faculty or graduate feedback has been collected for this draft as of 23 October 2026. Because the deadline is close, this report records the gap rather than implying consultation happened.
 
 ## 9. Conclusion
 

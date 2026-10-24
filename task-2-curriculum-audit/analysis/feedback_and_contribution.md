@@ -10,8 +10,6 @@ I supplied screenshots of the course list for Semesters I–VII and reported tha
 
 I used ChatGPT (GPT-6) to help organize the course data, draft the audit structure, propose curriculum options, prepare an interactive calculator, and generate/check example code. I did not independently obtain the exact admission-batch syllabus or regulations, did not collect faculty/graduate feedback, and did not personally read all three technical references before this draft. The related gaps are disclosed in the report and AI-use log. The proposed recommendations and capstone are student work for assessment and are not approved IFHE changes.
 
-Before submission, I should make sure I can explain the recommendations and calculations in my own words and change this statement if any detail no longer accurately describes my work.
-
 ## Limitations
 
 1. The registered programme title, admission batch and curriculum version have not been confirmed from an official student-specific record.

@@ -12,10 +12,12 @@
 Open `prototype/index.html` in Chrome or Edge. No install or server is required. Keep the same tab open while switching accounts; refreshing clears the in-memory request.
 
 ### Demo accounts
-- Faculty/Pavan: `pavan` / `pavan123`
-- Other faculty examples: `ananya` / `ananya123`, `vikram` / `vikram123`, `sneha` / `sneha123`, `arjun` / `arjun123`, `neha` / `neha123`, `rahul` / `rahul123`
+- Faculty (Dr Ananya Rao): `faculty` / `faculty123`
+- Faculty examples: `faculty_a` / `faculty_a123`, `faculty_b` / `faculty_b123`, `ananya` / `ananya123`, `vikram` / `vikram123`, `sneha` / `sneha123`, `arjun` / `arjun123`, `neha` / `neha123`, `rahul` / `rahul123`
 - Department Coordinator: `coordinator` / `coord123`
 - HOD: `hod` / `hod123`
+
+These are fictional demonstration accounts, not actual college credentials. The prototype stores the request only in browser memory; do not refresh while demonstrating the end-to-end flow.
 
 These are fictional demo credentials. They are not real staff accounts.
 
